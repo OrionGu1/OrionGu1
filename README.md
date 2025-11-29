@@ -8,15 +8,31 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Exo+2&size=56&duration=3500&pause=1000&center=true&vCenter=true&width=1000&height=100&lines=Welcome+to+my+Github+profile+page!)](https://git.io/typing-svg)
 
-<!--资料卡-->
-<div align="center">
+<!--资料卡--><div align="center">
 
-# OrionGU's GitHub Stats
+# OrionGu's GitHub Profile
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=OrionGu1&theme=radical)](https://git.io/streak-stats)
+## Statistics
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OrionGu1&layout=compact&theme=radical)](https://github.com/OrionGu1)
+[![Profile Views](https://komarev.com/ghpvc/?username=OrionGu1&color=2764E8&label=Profile+Views)](https://github.com/OrionGu1)
+[![Followers](https://img.shields.io/github/followers/OrionGu1?color=1E8C3E&label=Followers&style=flat)](https://github.com/OrionGu1)
+[![Repositories](https://img.shields.io/badge/Repositories-0-8A2BE2?style=flat)](https://github.com/OrionGu1?tab=repositories)
+[![Stars](https://img.shields.io/badge/Stars-0-FFD700?style=flat)](https://github.com/OrionGu1)
 
-![](https://komarev.com/ghpvc/?username=OrionGu1&color=blueviolet)
+---
+
+## Profile Information
+
+**Registration Date:** 3 days ago  
+**Current Focus:** Web Development  
+**Status:** Active Learning
+
+## Technical Skills
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 
 </div>
