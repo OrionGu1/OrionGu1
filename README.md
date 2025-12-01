@@ -77,3 +77,4 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0f0f0f&height=120&section=footer&text=SESSION%20TERMINATED&fontSize=25&fontAlign=50&fontAlignY=35&fontColor=00ff99&animation=fadeIn&stroke=00ff99&strokeWidth=1"/>
 </div>
+
