@@ -2,46 +2,42 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天运行一次
-  workflow_dispatch:      # 允许手动运行
-
-permissions: 
-  contents: write         # 必须给写入权限
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     
-    steps:
-      # 1. 检出代码 (使用最新的 v4 版本，修复 Node16 报错)
-      - name: Checkout
-        uses: actions/checkout@v4
+    # ⚠️ 必须有的权限设置
+    permissions: 
+      contents: write
 
-      # 2. 生成贪吃蛇文件 (使用官方最新的 v3 版本)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 3. 纯原生命令推送 (这是最靠谱的方法，不依赖任何第三方插件)
+      # 👇 核心修改：不使用插件，直接用原生命令推送，100% 成功
       - name: Push to output branch
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # 强制创建/切换到 output 分支
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # 切换到一个孤儿分支（没有任何历史记录的分支）
           git checkout --orphan output
-          
-          # 只保留 dist 目录下的文件
+          # 删除原本的所有文件
           git rm -rf .
-          mv dist/* .
-          rm -rf dist
-          
-          # 提交并推送
+          # 把生成的贪吃蛇文件复制过来
+          cp dist/github-contribution-grid-snake.svg .
+          cp dist/github-contribution-grid-snake-dark.svg .
+          # 提交并强制推送
           git add .
           git commit -m "Update snake animation"
           git push origin output --force
