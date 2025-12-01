@@ -1,7 +1,9 @@
-<!-- Header: 赛博朋克风格 -->
+<!-- 动态文字图片 -->
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:7000ff&height=160&section=header&text=OrionGu&fontSize=70&fontAlign=50&fontAlignY=50&desc=Hello%20World&descAlign=50&descSize=20&descAlignY=80&animation=fadeIn&stroke=00f2ea&strokeWidth=2"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=HI%20There！&fontSize=90&fontAlign=50&fontAlignY=30&desc=I%20am%20OriomGu！&descAlign=50&descSize=30&descAlignY=60&animation=twinkling"/>
 </div>
+
 
 <!-- Typing Effect -->
 <div align="center">
@@ -19,15 +21,21 @@
 
 <!-- 个人简介 -->
 <div align="center">
- <samp>
-   👋 Hi there, I'm <b>OrionGu</b>.<br/>
-   🌱 I’m currently learning <b>Web Development</b> and <b>Python</b>.<br/>
-   🚀 My goal is to contribute to open source projects.
- </samp>
+  <table>
+    <tr>
+      <td align="center">
+        <h3>👨‍💻 About Me</h3>
+        <samp>
+          🚀 Exploring the unknown in the code universe.<br>
+          📚 Currently learning: <b>React & Python</b><br>
+          💬 Ask me about: <b>Web Development</b><br>
+          📫 Reach me at: <b>13831271760@163.com</b>
+        </samp>
+      </td>
+    </tr>
+  </table>
 </div>
-
 <br/>
-
 <!-- 核心仪表盘：使用 Table 布局让数据左右对齐 -->
 <div align="center">
   <table border="0" style="border: none;">
@@ -104,4 +112,9 @@
   <a href="mailto:your-email@example.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
   </a>
+</div>
+<!-- 底部：3D 城市天际线动画 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" width="0" height="0" /> <!-- 这是一个隐藏的hack，为了确保snake加载 -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Cyberpunk City Footer">
 </div>
