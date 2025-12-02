@@ -12,7 +12,7 @@
 
 <br/>
 
-<!-- 🟢 核心资料区：赛博朋克控制台 (使用徽章拼凑的仪表盘，极其稳定) -->
+<!-- 🟢 核心资料区：赛博朋克控制台 -->
 <div align="center">
   <table style="border: 0px solid #000; background-color: #0d1117;">
     <tr>
@@ -55,16 +55,18 @@
 
 <br/>
 
-<!-- 🟢 底部 Footer：文字完美嵌入波浪中 -->
-<!-- 连续打卡条 -->
+<!-- 🟢 连续打卡条 (调整背景色以融入) -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OrionGu1&theme=react&hide_border=true&background=0d1117&ring=00ff99&fire=00ff99&currStreakLabel=00ff99&sideNums=c9d1d9&dates=c9d1d9" alt="Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OrionGu1&theme=react&hide_border=true&background=0d1117&ring=00ff99&fire=00ff99&currStreakLabel=00ff99&sideNums=00ff99&dates=c9d1d9" alt="Streak" />
 </div>
 
 <br/>
-<!-- 🟢 极简联系方式 (黑绿配色按钮) -->
+
+<!-- 🟢 极简联系方式 (已修改标题为黑绿风格) -->
 <div align="center">
-  <h3>📡 Connect Signal</h3>
+  <!-- 使用 Transparent Capsule 制作发光标题 -->
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00ff99&text=📡%20CONNECT_SIGNAL&fontSize=25&fontAlign=50&stroke=00ff99&strokeWidth=1&height=70" alt="Connect Signal Header"/>
+  
   <p>
     <a href="https://github.com/OrionGu1">
       <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff99&labelColor=0f0f0f" />
@@ -74,12 +76,10 @@
     </a>
   </p>
 </div>
-<br/>
-<br/>
+
 <!-- 🟢 底部 Footer：完美呼应头部 -->
-<!-- section=footer: 波浪倒置 -->
-<!-- fontAlignY=35: 调整文字垂直高度，确保不被切掉 -->
-<div align="center">
+<!-- 增加 margin-top 负值，让文字离上面更紧凑一点 -->
+<div align="center" style="margin-top: -20px;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0f0f0f&height=120&section=footer&text=SESSION%20TERMINATED&fontSize=25&fontAlign=50&fontAlignY=35&fontColor=00ff99&animation=fadeIn&stroke=00ff99&strokeWidth=1"/>
 </div>
 
