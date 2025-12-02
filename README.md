@@ -56,7 +56,12 @@
 <br/>
 
 <!-- 🟢 底部 Footer：文字完美嵌入波浪中 -->
+<!-- 连续打卡条 -->
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OrionGu1&theme=react&hide_border=true&background=0d1117&ring=00ff99&fire=00ff99&currStreakLabel=00ff99&sideNums=c9d1d9&dates=c9d1d9" alt="Streak" />
+</div>
 
+<br/>
 <!-- 🟢 极简联系方式 (黑绿配色按钮) -->
 <div align="center">
   <h3>📡 Connect Signal</h3>
