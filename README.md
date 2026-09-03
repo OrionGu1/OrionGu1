@@ -1,6 +1,6 @@
 <!-- 🟢 顶部 Header：黑客信号接入 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0f0f0f&height=180&section=header&text=OrionGu&fontSize=80&fontAlign=50&fontAlignY=35&desc=System%20Online...&descAlign=50&descSize=20&descAlignY=65&animation=fadeIn&fontColor=00ff99&stroke=00ff99&strokeWidth=1"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0f0f0f&height=180&section=header&text=Orion&fontSize=80&fontAlign=50&fontAlignY=35&desc=System%20Online...&descAlign=50&descSize=20&descAlignY=65&animation=fadeIn&fontColor=00ff99&stroke=00ff99&strokeWidth=1"/>
 </div>
 
 <!-- 🟢 动态命令输入效果 -->
